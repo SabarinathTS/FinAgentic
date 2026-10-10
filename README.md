@@ -5,7 +5,6 @@
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2.50-FF4B4B.svg?style=flat)](https://langchain-ai.github.io/langgraph/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.31+-FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![FAISS](https://img.shields.io/badge/VectorDB-FAISS-blue.svg?style=flat)](https://github.com/facebookresearch/faiss)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Full architectural schema and state machine specifications are documented in [**`SCHEMA.md`**](./SCHEMA.md).
 
@@ -120,7 +119,6 @@ graph TB
 ├── .env                       # Active API keys and environment variables (git-ignored)
 ├── .env.example               # Template for API keys and configuration
 ├── .gitignore                 # Protects keys, temporary files, and vector caches
-├── LICENSE                    # Clean MIT open-source license
 ├── README.md                  # Comprehensive system documentation
 ├── requirements.txt           # Python package dependencies
 ├── run.py                     # Main application launcher (Streamlit UI)
@@ -259,11 +257,3 @@ tavily_key = config.get_api_key("tavily")
 ```
 
 All keys in `.env` remain strictly local and protected from git commits via [`.gitignore`](./.gitignore).
-
----
-
-
-
-## 📄 License
-
-This project is licensed under the terms of the **MIT License**. See [LICENSE](./LICENSE) for details.
